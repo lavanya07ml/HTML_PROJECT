@@ -78,7 +78,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 10px 80px;
     background: #E3E6F3;
     box-shadow: 0 5px 150x rgba(0, 0, 0.06);
     z-index: 999;
@@ -140,7 +140,7 @@ body {
     height: 90vh;
     width: 100%;
     background-size: cover;
-    background-position: top 25% right 0;
+    background-position: top 20% right 0;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
@@ -1121,3 +1121,67 @@ footer {
 }
 
 
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Style the search button */
+input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Add some hover effect */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+.image-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.image-box {
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #f5f5f5;
+    text-align: center;
+    max-width: 200px;
+}
+
+.image-box img {
+    max-width: 100%;
+}
+
+.dropdown-container {
+    text-align: center;
+    font-size: 18px;
+}
+
+.image-container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 600px;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
